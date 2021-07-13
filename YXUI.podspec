@@ -15,11 +15,17 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
   # 名字
+  
   spec.name         = "YXUI"
+  
   # 版本号
+  
   spec.version      = "0.0.1"
+  
   # 概要
-  spec.summary      = "A short description of YXUI."
+  
+  spec.summary      = "A short description"
+  
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,8 +33,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   # 详细描述 字数要比summary多
-  spec.description  = <<-DESC
-                   DESC
+  #spec.description  = "UI框架，View的各类分类扩展，各种和UI相关的东西都放在这里"
   # 首页地址
   spec.homepage     = "https://github.com/TheFireStick/YXUI"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -41,7 +46,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,6 +61,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "zhangyunxiao" => "845709917@qq.com" }
+  
   # Or just: spec.author    = "zhangyunxiao"
   # spec.authors            = { "zhangyunxiao" => "845709917@qq.com" }
   # spec.social_media_url   = "https://twitter.com/zhangyunxiao"
@@ -83,7 +89,8 @@ Pod::Spec.new do |spec|
   #
 
   # 仓库路径
-  spec.source       = { :git => ""https://github.com/TheFireStick/YXUI.git"", :tag => "#{spec.version}" }
+  
+  spec.source       = { :git => ""https://github.com/TheFireStick/YXUI.git"", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +102,7 @@ Pod::Spec.new do |spec|
   #
     
   # 下载指定路径下文件 和文件类型
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
+  spec.source_files  = "Classes/**/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -134,7 +141,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
