@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/TheFireStick/YXUI"
   s.license      = "MIT"
   s.author             = { "zyx" => "845709917.qq.com" }
-  s.source       = { :git => "https://https://github.com/TheFireStick/YXUI.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/TheFireStick/YXUI.git", :tag => s.version }
   s.source_files  = "Classes"
   s.requires_arc = true
 end
