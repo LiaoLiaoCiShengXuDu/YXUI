@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   # 名字
   spec.name         = "YXUI"
   # 版本号
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.1"
   # 概要
   spec.summary      = "A short"
 
