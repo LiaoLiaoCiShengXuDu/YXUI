@@ -12,4 +12,7 @@ extension UIView{
         
         UIView.init();
     }
+    func bezier()  {
+        
+    }
 }
