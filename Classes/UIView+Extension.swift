@@ -6,13 +6,18 @@
 //
 
 import UIKit
+import Foundation
 
 extension UIView{
-    func viewFromXib () ->UIView{
+    func viewFromXib () -> UIView{
         
         UIView.init();
     }
     func bezier()  {
         
+    }
+    
+    func yx_width() -> Float {
+        100.0
     }
 }

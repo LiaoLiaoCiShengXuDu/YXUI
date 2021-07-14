@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YXUI"
-  s.version      = "1.0.0"
+  s.version      = "1.1.1"
   s.summary      = "A"
   s.homepage     = "https://github.com/TheFireStick/YXUI"
   s.license      = "MIT"
